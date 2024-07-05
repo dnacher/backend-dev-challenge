@@ -62,10 +62,12 @@ An alternative solution to clonning the repository and implementing the function
 
 Sample : `/api/directors?threshold=4`
 
-Json response:
+
+Json response (_updated_):
 ```
-{  "directors": ["Martin Scorsese","Woody Allen"] }
-```
+{  "directors": ["M. Night Shyamalan, Martin Scorsese, Pedro Almodóvar, Woody Allen"] } 
+``` 
+
 
 The solution can be shared via .zip file or sharing a github repository url via email. 
 

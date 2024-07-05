@@ -56,4 +56,11 @@ public class MainTest {
         assertEquals("[Clint Eastwood, M. Night Shyamalan, Martin Scorsese, Pedro Almodóvar, Quentin Tarantino, Woody Allen]", directors.toString());
     }
 
+    @Test
+    public void test9() {
+        List<String> directors = Main.getDirectors(4);
+        System.out.println(directors);
+        assertEquals("[M. Night Shyamalan, Martin Scorsese, Pedro Almodóvar, Woody Allen]", directors.toString());
+    }
+
 }
